@@ -16,3 +16,9 @@ or
 echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
 echo 1 > /proc/sys/net/ipv6/conf/default/disable_ipv6
 ```
+
+To make the settings affective, execute :
+
+```
+sysctl -p
+```
